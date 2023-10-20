@@ -9,8 +9,8 @@ body {
 .cabecalho{
     background-color: gray;
     display: flex;
-    justify-content: space-around;
-    padding: 18px 12;}
+    justify-content: space-between;
+    padding: 18px 36px;}
 
 .cabecalho-img{
     width: 6%;}
