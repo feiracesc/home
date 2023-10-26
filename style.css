@@ -22,7 +22,7 @@ body {
     font-size: 26px;}
 
 .intro{
-    background-color: gray;
+    background-color: rgb(252, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,14 +42,18 @@ body {
     font-size: 18px;}     
 
 .img1{
-    width: 18%;}    
+    width: 40px;}    
+
+.img3{
+    width: 40px;}  
+
+.legenda {font-size: 18px;}
 
 .conteudo-inteiro{
     text-align: center;
     color: #daa520 ;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    font-size: 25px;
+    grid-template-columns: 10% 35% 10% 35% 10%;
     padding-bottom: 45px;}
 
 .conteudo-titulo{
@@ -57,15 +61,6 @@ body {
     color: #daa520 ;
     font-size: 38px;
     padding: 26px;}
-
-.item1-img{
-    width: 35%;}
-
-.item2-img{
-    width: 35%;}
-   
-.item3-img{
-    width: 35%;}
     
 .rodape-img{
     width: 6%;}
