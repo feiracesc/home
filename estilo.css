@@ -1,0 +1,55 @@
+#home {
+	background: #02367B;
+	color: white;
+}
+
+.display-4 {font-size: 42px}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.img1{
+	width: 25px;
+}
+
+.conteudo{
+	background-color: #02367B;
+	text-align: center;
+    color:white;
+}
+.conteudo-inteiro{
+    text-align: center;
+    color: white ;
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    padding-bottom: 45px;}
+
+.conteudo-titulo{
+    text-align: center;
+    color:white;
+    font-size: 38px;
+    padding: 26px;}
+
+.conteudo2{    
+	background-color: #2979ff;}
+	
+.conteudo-inteiro2{
+	text-align: center;
+	display: grid;
+	font-size: 25px;
+	padding-bottom: 45px;}
+	
+.conteudo-titulo2{
+	text-align: center;
+	color:white ;
+	font-size: 38px;
+	padding: 26px;}
+	
+.rodape{
+	text-align: center;
+	background: #02367B;
+	color: white;
+	margin: 0px 0px;
+}
