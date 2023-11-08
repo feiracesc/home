@@ -18,30 +18,17 @@
   </head>
   <body>
     
-    <header><!-- inicio Cabecalho -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-primary">
-        <div class="container">
-          
-          <a href="img_carrossel/logo.png" class="navbar-brand">
-            <img src="img_carrossel/logo.png" width="142">
-          </a>
-
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="nav-principal">
-            <ul class="navbar-nav ml-auto">
+    <header class="cabecalho"><!-- inicio Cabecalho -->
+      <img class="cabecalho-logo" src="img_carrossel/logo.png" alt="">
+      <nav class="nav">
+          <ul class="nav-lista">
+            <li class="nav-item">
+                <a href="http://www.ctasantacandida.seed.pr.gov.br/modules/noticias/" class="botao">Escola</a>
+            </li>
               <li class="nav-item">
-                <a href="http://www.ctasantacandida.seed.pr.gov.br/modules/noticias/" class="nav-link">Escola</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="btn btn-outline-light ml-4">Inscreva-se</a>
-              </li>
-            </ul>
-          </div>
-
-        </div>
+                <a href="#atividades" class="botao">Inscreva-se</a>
+            </li>
+          </ul>
       </nav>
     </header><!--/fim Cabecalho -->
 
@@ -56,16 +43,7 @@
               </p>
               <p>Local: RUA THEODORO MAKIOLKA, 155, SANTA CANDIDA, PR, 826400-10, Brasil.</p>
 
-              <form class="mt-4 mb-4">
-                <div class="input-group input-group-lg">
-                  <!--<input type="text" placeholder="Seu e-mail" class="form-control">-->
-                  <div class="input-group-append">
-                    <button type="button" class="btn btn-dark" style="width: 200px;">Inscreva-se</button>
-                  </div>
-                </div>
-              </form>
-
-              <p>Nossas Redes Sociais:  
+                <p>Nossas Redes Sociais:  
                 <a href="https://www.instagram.com/feira_do_empreendedor_cesc/" class="btn btn-outline-light">
                   <i class="fab fa-instagram"></i>
                 </a>
@@ -77,92 +55,111 @@
 
             </div>
           </div><!--/fim textos da seção -->
-          <div class="col-md-6 d-none d-md-block">
+          <div class="carrosel">
+                  <!--inicio carrosel-->
+      <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!--Carrosel -->
 
-            <!--inicio carrosel-->
-            <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!--Carrosel -->
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
 
-              <!-- Indicadores -->
-              <ol class="carousel-indicators">
-  
-                <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
-  
-                <li data-target="#carousel-indicadores" data-slide-to="1"></li>
-  
-                <li data-target="#carousel-indicadores" data-slide-to="2"></li>
+          <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
 
-                <li data-target="#carousel-indicadores" data-slide-to="3"></li>
+          <li data-target="#carousel-indicadores" data-slide-to="1"></li>
 
-                <li data-target="#carousel-indicadores" data-slide-to="4"></li>
-  
-              </ol>
-  
-              <div class="carousel-inner"><!--Inner -->
+          <li data-target="#carousel-indicadores" data-slide-to="2"></li>
 
-                <div class="carousel-item active">
-                  <img src="img_carrossel/professoras.jpeg" class="img-fluid pb-1">
-                </div>
+          <li data-target="#carousel-indicadores" data-slide-to="3"></li>
 
-                <div class="carousel-item">
-                  <img src="img_carrossel/1.jpeg" class="img-fluid pb-1">
-                </div>
+          <li data-target="#carousel-indicadores" data-slide-to="4"></li>
 
-                <div class="carousel-item">
-                  <img src="img_carrossel/2.jpeg" class="img-fluid pb-1">
-                </div>
+        </ol>
 
-                <div class="carousel-item">
-                  <img src="img_carrossel/3.jpeg" class="img-fluid pb-1">
-                </div>
+        <div class="carousel-inner"><!--Inner -->
 
-                <div class="carousel-item">
-                  <img src="img_carrossel/4.jpeg" class="img-fluid pb-1">
-                </div>
+          <div class="carousel-item active">
+            <img src="img_carrossel/professoras.jpeg" class="img-fluid pb-1">
+          </div>
 
-                <div class="carousel-item">
-                  <img src="img_carrossel/5.jpeg" class="img-fluid pb-1">
-                </div>
-  
-  
-              </div><!--/Inner -->
-  
-              <!-- Controles -->
-              <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-  
-              <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
-  
-            </div><!--/Carrosel -->
-            <!--fim carrosel-->
+          <div class="carousel-item">
+            <img src="img_carrossel/1.jpeg" class="img-fluid pb-1">
+          </div>
 
-            <!--<img src="img/capa-mulher.png">-->
+          <div class="carousel-item">
+            <img src="img_carrossel/2.jpeg" class="img-fluid pb-1">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img_carrossel/3.jpeg" class="img-fluid pb-1">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img_carrossel/4.jpeg" class="img-fluid pb-1">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img_carrossel/5.jpeg" class="img-fluid pb-1">
+          </div>
+
+
+        </div><!--/Inner -->
+
+        <!-- Controles -->
+        <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div><!--/Carrosel -->
+      <!--fim carrosel-->
+            
+
           </div>
         </div>
       </div>
     </section><!--/fim seção home -->
 
-    <section class="caixa"><!--/Início seção saiba -->
+    <div class="carrosel">
+
+    </div>
+
+    <section id="atividades" class="caixa"><!--/Início seção saiba -->
       <div class="container">
+        <h2>Inscrições</h2>
+                <p>Escolha o(s) dia(s) que pretende participar da nossa feira e faça a sua inscrição</p>
         <div class="row">
           <div class="col-md-6 d-flex">
-            <div class="align-self-center">
-              <h2>Atividades</h2>
-              <ul>
-                <li>Palestra 13/11 -Empreendedorismo Feminino</li>
-
-                <li>14/11 -MEI- Desafios e Oportunidades</li>
-                  
-                <li>16/11 Apresentação de produtos / Exposição de trabalho e stands turno:noite</li>
-                  
-                <li>17/11 Apresentação de produtos / Exposição de trabalho e stands turno:manhã</li>
-              </ul>
+            <div class="align-self-center inscricao">
+                <h3>Palestras</h3>
+                <ul>
+                  <li>
+                    <p>Palestra Empreendedorismo feminino (13/11)</p>
+                    <a class="botao2" href="https://forms.gle/SgBGdE1BwNSsrJ9U7">Fazer inscrição</a>
+                  </li>
+                  <li>
+                    <p>Palestra MEI (14/11)</p>
+                    <a class="botao2" href=https://forms.gle/YsCuyQ5pq8mCnhfD7>Fazer inscrição</a>
+                  </li>
+                </ul>
+                <h3>Exposição e vendas</h3>
+                <ul>
+                    <li>
+                        <p>Inscrição 16/11 (noturno) Das 19:30hs as 21:00hs</p>
+                        <p>Brechó, vendas de bijuterias e lanches</p>
+                        <a class="botao2" href="https://forms.gle/RCDZZ9MrCgEboivAA">Fazer inscrição</a>
+                    </li>
+                    <li>
+                        <p>Inscrição 17/11 (diurno) Das 8:30hs as 11:00hs</p>
+                        <p>Venda e apresentação dos produtos feitos pelos alunos</p>
+                        <a class="botao2" href="https://forms.gle/KyWoALQ7YabWNfWo6">Fazer inscrição</a>
+                    </li>
+                </ul>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="img/palestras.jpeg" class="img-fluid m-auto" style="width: 500px; height: 450px;">
+          <div class="col-md-6 banner-palestras">
+            <img src="img/palestras.jpeg" class="img-fluid m-auto img-palestras">
           </div>
         </div>
       </div>
@@ -181,7 +178,7 @@
         <div class="item2-div">
           <h3>Lanches</h3>
           <a href="https://miguel43albano.wixsite.com/cesc-food-s" style="text-decoration: none; color: inherit;" target="_blank"><img class="img1" src="img/pagina-da-internet.png" alt="imagem da intro"></a>
-          <p class="legenda">Os alunos dos segundos anos irão realizar a venda de hot dogs, com ingredientes comprados com a arrecadação do pratrocínio e o lucro total das vendas será destinado à escola. </p>
+          <p class="legenda">Os alunos dos segundos anos irão realizar a venda de hot dogs, com ingredientes comprados com a arrecadação do patrocínio e o lucro total das vendas será destinado à escola. </p>
         </div>
         
         <span></span>
@@ -194,18 +191,72 @@
       </div>
 
       <section class="conteudo2">
+        <h2 class="conteudo-titulo">Produtos principais</h2>
         <h4 class="data">17/11/23</h4>
-        <div class="conteudo-inteiro2">
-          <span></span>
-          <div class="item4-div">
-            <img class="item4-img" src="img/item4.png" alt="item4-img">
-            <a href="LINK-AQUI" style="text-decoration: none; color: inherit;" target="_blank">
-              <h3>item4-texto</h3>
-            </a>
+        <div class="container-turmas">
+          <section class="turma">
+            <h2>2B</h2>
+            <div class="produto">
+              <h3>Cone Mania</h3>
+              <a href="https://alunamari.github.io/conesmania/"><img class="icone" src="img/icone-site.png" alt=""></a>
+              <a href="https://www.instagram.com/conesmania_cesc/"><img class="icone" src="img/icone_instagram.png" alt=""></a>
+              <p>Cones recheados</p>
+              <p>____________________________________</p>
           </div>
- 
-            </a>
+          <div class="produto">
+              <h3>Papel Reciclado</h3>
+              <a href="https://miguelsete.github.io/Papel-Reciclavel/"><img class="icone" src="img/icone-site.png" alt=""></a>
+              <p>Papéis reciclados pelos alunos</p>
+              <p>____________________________________</p>
           </div>
+          </section>
+          <section class="turma">
+          <h2>2C</h2>
+            <div class="produto">
+                <h3>Cookie's Petit</h3>
+                <a href="https://batataazu.github.io/cookie-petit/"><img class="icone" src="img/icone-site.png" alt=""></a>
+                <a href="https://www.instagram.com/cookiespetit_cesc/"><img class="icone" src="img/icone_instagram.png" alt=""></a>
+                <p>Cookies de vários sabores</p>
+                <p>____________________________________</p>
+            </div>
+            <div class="produto">
+                <h3>Cake Pop</h3>
+                <a href="https://mariazinha2025.github.io/cake-pop/"><img class="icone" src="img/icone-site.png" alt=""></a>
+                <a href="https://www.instagram.com/cesc.pops/"><img class="icone" src="img/icone_instagram.png" alt=""></a>
+                <p>Bolos recheados cobertos com chocolate</p>
+                <p>____________________________________</p>
+            </div>
+            <div class="produto">
+                <h3>Sabão da Bg</h3>
+                <a href="https://upedrin06.github.io/sabaodabg/"><img class="icone" src="img/icone-site.png" alt=""></a>
+                <p>Sabão caseiro</p>
+                <p>____________________________________</p>
+            </div>
+        </section>
+        <section class="turma">
+          <h2>2D</h2>
+            <div class="produto">
+              <h3>Estrelas da Arte</h3>
+                <a href="https://alinelinda29.github.io/estrela-da-arte/"><img class="icone" src="img/icone-site.png" alt=""></a>
+                <p>Quadros de música</p>
+                <p>____________________________________</p>
+            </div>
+            <div class="produto">
+              <h3>Ilumina Farm</h3>
+              <a href="https://madumarinhoo.github.io/IluminaFarm/"><img class="icone" src="img/icone-site.png" alt=""></a>
+              <a href="https://www.instagram.com/iluminafarm/"><img class="icone" src="img/icone_instagram.png" alt=""></a>
+              <p>Velas artesanais</p>
+              <p>____________________________________</p>
+            </div>
+            <div class="produto">
+              <h3>Cesc Camisetas</h3>
+              <a href="https://gusgus07.github.io/cesc-camisetas-personalizadas1/"><img class="icone" src="img/icone-site.png" alt=""></a>
+              <a href="https://www.instagram.com/cesc_style/"><img class="icone" src="img/icone_instagram.png" alt=""></a>
+              <p>Novas camisetas para o uniforme do Colégio</p>
+              <p>____________________________________</p>
+            </div>
+        </section>
+      </div>
 
     <footer class="rodape">
       <p>2023 - Site criado como produto educacional por professores e estudantes do Colégio Estadual Santa Cândida.</p>

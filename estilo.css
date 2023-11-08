@@ -51,5 +51,108 @@
 	text-align: center;
 	background: #02367B;
 	color: white;
-	margin: 0px 0px;
+	padding: 10px 0;
+}
+
+.cabecalho {
+	background-color:  #02367B;
+	display: flex;
+	justify-content: space-around;
+}
+
+.cabecalho-logo{
+	width: 200px;
+}
+
+.nav-lista{
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0;
+}
+
+.nav-item {
+	list-style-type: none;
+	text-align: center;
+}
+
+.botao {
+	display: inline-block;
+	background-color: rgb(64, 142, 211);
+	color: white;
+	padding: 10px;
+	border-radius: 3px;
+	width: 120px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.botao:hover {
+	text-decoration: none;
+	background-color: rgb(28, 24, 72);
+	color: white;
+}
+
+.carrosel{
+	width: 360px;
+	margin: 0 auto;
+}
+
+.inscricao h3{
+	font-size: 1.5em;
+}
+
+.inscricao p {
+	margin: 0;
+}
+
+.botao2 {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	background-color: rgb(155, 199, 235);
+	color: white;
+	border-radius: 3px;
+}
+
+.img-palestras {
+	width: 100%;
+}
+.banner-palestras {
+	text-align: center;
+}
+
+.container-turmas {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.turma {
+	border: solid 1px;
+	border-radius: 15px;
+	width: 360px;
+	margin: 10px 0;
+}
+
+.turma p {
+	margin: 0;
+}
+
+.produto h3{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.icone {
+	width: 1.7em;
+	margin: 8px 8px 8px 0;
+}
+
+@media screen and (max-width: 600px){
+	.cabecalho {
+		flex-direction: column;
+		align-items: center;
+	}
 }
